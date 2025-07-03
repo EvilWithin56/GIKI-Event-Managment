@@ -1,3 +1,5 @@
+import utils.transport
+import utils.session
 import psycopg2
 from flask import Flask, render_template, request, flash, redirect, url_for
 from datetime import date
